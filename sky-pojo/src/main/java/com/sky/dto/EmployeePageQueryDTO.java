@@ -7,6 +7,7 @@ import java.io.Serializable;
 @Data
 public class EmployeePageQueryDTO implements Serializable {
 
+    private static final long serialVersionUID = 7120430351093859152L;
     //员工姓名
     private String name;
 
