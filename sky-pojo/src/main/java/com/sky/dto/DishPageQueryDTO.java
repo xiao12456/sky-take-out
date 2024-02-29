@@ -7,6 +7,7 @@ import java.io.Serializable;
 @Data
 public class DishPageQueryDTO implements Serializable {
 
+    private static final long serialVersionUID = 7639707662854121540L;
     private int page;
 
     private int pageSize;

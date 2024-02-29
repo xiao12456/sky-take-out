@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
@@ -17,6 +18,7 @@ import java.util.List;
 @AllArgsConstructor
 public class DishVO implements Serializable {
 
+    private static final long serialVersionUID = -679182091693081931L;
     private Long id;
     //菜品名称
     private String name;
