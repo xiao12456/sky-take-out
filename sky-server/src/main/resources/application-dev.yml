@@ -11,3 +11,8 @@ sky:
     access-key-id: LTAI5tBzcY7y9iR2o5cQRZpa
     access-key-secret: p4J2RV53m0OOZCjFWfdzTG1iQ0usYq
     bucket-name: sky-wangwu
+  redis:
+    host: localhost
+    port: 6379
+    password: 123456
+    database: 0
