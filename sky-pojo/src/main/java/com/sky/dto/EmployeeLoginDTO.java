@@ -10,6 +10,7 @@ import java.io.Serializable;
 @ApiModel(description = "员工登录时传递的数据模型")
 public class EmployeeLoginDTO implements Serializable {
 
+    private static final long serialVersionUID = 7818048581325052429L;
     @ApiModelProperty("用户名")
     private String username;
 
