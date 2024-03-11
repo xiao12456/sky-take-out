@@ -14,6 +14,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 public class OrderSubmitVO implements Serializable {
+    private static final long serialVersionUID = -2566073929310149555L;
     //订单id
     private Long id;
     //订单号
