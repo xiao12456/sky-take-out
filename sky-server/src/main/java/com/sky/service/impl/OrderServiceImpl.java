@@ -67,6 +67,7 @@ public class OrderServiceImpl implements OrderService {
         orders.setNumber(String.valueOf(System.currentTimeMillis()));
         orders.setPhone(addressBook.getPhone());
         orders.setConsignee(addressBook.getConsignee());
+        orders.setAddress(addressBook.getDetail());
         orders.setUserId(userId);
         orderMapper.insert(orders);
         // 向订单明细表插入n条数据
@@ -218,5 +219,11 @@ public class OrderServiceImpl implements OrderService {
         }).collect(Collectors.toList());
         // 将购物车对象批量添加到数据库
         shoppingCartMapper.insertBatch(shoppingCartList);
+    }
+
+    @Override
+    public PageResult conditionSearch(OrdersPageQueryDTO ordersPageQueryDTO) {
+
+        return null;
     }
 }
