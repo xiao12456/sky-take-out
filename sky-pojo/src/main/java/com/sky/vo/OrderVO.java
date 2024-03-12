@@ -5,6 +5,7 @@ import com.sky.entity.Orders;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
 import java.io.Serializable;
 import java.util.List;
 
@@ -13,6 +14,7 @@ import java.util.List;
 @AllArgsConstructor
 public class OrderVO extends Orders implements Serializable {
 
+    private static final long serialVersionUID = -5246642739323991455L;
     //订单菜品信息
     private String orderDishes;
 

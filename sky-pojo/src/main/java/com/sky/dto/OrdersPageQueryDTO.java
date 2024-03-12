@@ -9,6 +9,7 @@ import java.time.LocalDateTime;
 @Data
 public class OrdersPageQueryDTO implements Serializable {
 
+    private static final long serialVersionUID = -2985739999767291597L;
     private int page;
 
     private int pageSize;
